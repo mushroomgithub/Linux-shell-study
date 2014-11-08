@@ -12,7 +12,7 @@
 
 #####For Example
 
-* 1 . ./function1.sh //调用函数文件            
-* 2 hello mogu    //调用函数hello 时 为其传递参数mogu          
-* 3 hi mashuai    ///调用函数hi时,为其传递参数 mashuai
+* 1  . ./function1.sh //调用函数文件            
+* 2  hello mogu    //调用函数hello 时 为其传递参数 mogu          
+* 3  hi mashuai    ///调用函数hi时,为其传递参数 mashuai
 
