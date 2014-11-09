@@ -34,6 +34,7 @@
 
 **文件测试命令的格式:**
 * \[ -command parameter \]
+
 > 上面的基本格式中,command为测试命令,parameter是需要测试的目标文件或目录.
 
 **用法示例**
@@ -86,6 +87,7 @@
 
 **字符串测试的格式**
 * \[ parameter1 operator parameter2 \]
+
 > 上面的格式中,parameter1和parameter2分别表示字符串1,字符串2,operator表示操作符.
 
 **用法示例**
@@ -215,6 +217,7 @@ function trap_test()
 }
 
 sleep 60
+
 ``
 
 > 这是一个用于捕获Ctrl+C退出快捷键的脚本,运行结果如下:
@@ -226,6 +229,7 @@ sleep 60
 #执行之后,我按下了快捷键Ctrl+C
 You press the Ctrl+C.
 Now exiting,Pls Waiting ...
+
 ``
 > 按下快捷键Ctrl+C时,可以看到脚本捕获到了用户从键盘发出的终端信号,并且调用函数trap_test,显示提示信息,之后自动退出.
 
