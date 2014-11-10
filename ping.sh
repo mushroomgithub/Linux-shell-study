@@ -7,7 +7,7 @@
 function usage()
 {
     echo "Error:Must have a IP Address as the S1"
-    echo "$0:the ip Address to check"
+    echo "usage:$0:the ip Address to check"
     return 1
 }
 if [ $# = 0 ]
