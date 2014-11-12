@@ -116,7 +116,7 @@ function backup_nfs ()
 {
     #使用mount 命令将远程服务器的nfs目录挂载到本地的/mnt/nfs目录中
     #此处假定本地用于挂载的目录已经存在
-    mount -t nfs 192.168.118.226:/mnt/backup /mnt/nfs &>/dev/null
+    mount -t nfs 222.26.26.240:/mnt/backup /mnt/nfs &>/dev/null
     if [ $? = 0 ]
     then
         #如果挂载命令执行成功,则将参数指定的文件使用cp命令上传到远程服务器
