@@ -232,6 +232,3 @@ Now exiting,Pls Waiting ...
 
 ```
 > 按下快捷键Ctrl+C时,可以看到脚本捕获到了用户从键盘发出的终端信号,并且调用函数trap_test,显示提示信息,之后自动退出.
-
-
-以后会后续更新shell 
